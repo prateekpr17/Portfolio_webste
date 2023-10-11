@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prateek's Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Prateek's Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:1">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#skill" style="--i:3">Skill</a>
+            <a href="#project" style="--i:4">Project</a>
+            <a href="#contact" style="--i:5">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Prateek Sethi</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>I am a web designer with over three months of experience.
+                <br>
+            </p>
+            <div class="home-sci">
+                <a href="https://m.facebook.com/" style="--i:1"><i class='bx bxl-facebook'></i></a>
+                <a href="https://instagram.com/prateek.pr17?igshid=OGQ5ZDc2ODk2ZA==" style="--i:2"><i class='bx bxl-instagram'></i></a>
+                <a href="#" style="--i:3"><i class='bx bxl-whatsapp'></i></a>
+
+            </div>
+            <a href="#" class="btn-box">More About Me</a>
+        </div>
+        <span class="home-imgHover"></span>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/I.png" alt="">
+        </div>
+        <div class="about-text">
+            <h2>About<span>Me</span></h2>
+            <h4>Front-end Web Developer!!</h4>
+            <p>I'm a passionate web developer with three months of experience, specializing in HTML5, CSS, and JavaScript. I'm
+            dedicated to creating visually stunning and user-friendly websites. Eager to learn and grow in this dynamic field, I'm
+            excited to contribute my skills to exciting projects and deliver outstanding online experiences.</p>
+
+            <a href="#" class="btn-box">More About Me</a>
+        </div>
+    </section>
+
+    <section id="skill">
+        <h1 class="sub-title">My <span>Skills</span></h1>
+        <div class="services-list skill-list">
+            <div class="card">
+                <h2>HTML</h2>
+                <i class='bx bxl-html5' style='color:#00eeff'></i>
+            </div>
+            <div class="card">
+                <h2>CSS</h2>
+                <i class='bx bxl-css3' style='color:#00eeff'></i>
+            </div>
+            <div class="card">
+                <h2>JAVA SCRIPT</h2>
+                <i class='bx bxl-javascript' style='color:#00eeff'></i>
+            </div>
+            <div class="card">
+                <h2>C++</h2>
+                <i class='bx bxl-c-plus-plus' style='color:#00eeff'></i>
+            </div>
+            <div class="card">
+                <h2>PYTHON</h2>
+                <i class='bx bxl-python' style='color:#00eeff'></i>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="project">
+        <h1 class="sub-title">My <span>Project</span></h1>
+        <div class="services-list skill-list">
+            <div class="card card1">
+                <h2>Spotify Clone</h2>
+                <img src="images/spotify.png" alt="">
+                <a href="https://prateekpr17.github.io/Temperature_Converter/" class="btn-box">Checkout</a>
+            </div>
+            <div class="card card1">
+                <h2>Temperature Converter</h2>
+                <img src="images/temprature converter.webp" alt="">
+                <a href="https://prateekpr17.github.io/Spotify_Clone/" class="btn-box">Checkout</a>
+            </div>
+            <div class="card card1">
+                <h2>Netflix Clone</h2>
+                <img src="images/netflex.png" alt="">
+                <a href="" class="btn-box">Checkout</a>
+            </div>
+        </div>
+
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me</span></h2>
+            <h4>Let's work Together</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis doloremque est repudiandae. Omnis
+                optio
+                cumque accusantium eius, soluta quod.</p>
+            <div class="contact-list">
+                <ul>
+                    <li><i class="bx bxs-send"></i> <a
+                            href="mailto:sethiprateek23a@gmail.com">sethiprateek23a@gmail.com</a>
+                    </li>
+                    <li><i class="bx bxs-phone"></i> <a href="tel:9528504547">9528504547</a></li>
+                </ul>
+            </div>
+            <div class="contact-icons">
+                <a href="https://m.facebook.com/"><i class="bx bxl-facebook-circle"></i></a>
+                <a href="https://twitter.com/home?lang=en"><i class="bx bxl-twitter"></i></a>
+                <a href="https://instagram.com/prateek.pr17?igshid=OGQ5ZDc2ODk2ZA=="><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/prateek-sethi-78944622b"><i class="bx bxl-linkedin"></i></a>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form action="process_form.php" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" placeholder="Enter Your Subject">
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" cols="40" rows="10" placeholder="Enter Your Message"
+                    required></textarea>
+
+                <input type="submit" value="Submit" class="send">
+            </form>
+        </div>
+    </section>
+
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
